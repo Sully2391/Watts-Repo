@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     font-family: fantasy, "papyrus";
 }
 /* base styles */
@@ -31,12 +30,10 @@
     text-decoration: none;
     font-weight: bold;
 }
-
 .nav-link:hover,
 .nav-link:focus {
     color: #ffd700;
 }
-
 
 /* layout styles */
 
