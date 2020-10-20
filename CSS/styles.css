@@ -1,9 +1,35 @@
-
-/* element styles */
+* {
+    box-sizing: border-box;
+}
+/* base styles */
 
 /* class selectors */
+#logo {
+    max-height: 50px;
+    max-width: 200px;
+}
+
+.main-header {
+    background-color: #e12532;
+    color: #f5d76e;
+    border-bottom: solid 5px #f5d76e;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+
+.nav-link {
+    color: #550000;
+    text-decoration: none;
+}
 
 
 /* layout styles */
 
 /* media queries */
+
+@media (max-width: 576px) {
+
+
+}
