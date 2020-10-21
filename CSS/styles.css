@@ -2,20 +2,27 @@
     font-family: fantasy, "papyrus";
 }
 /* base styles */
+body {
+    margin-top: 0;
+}
 
-/* class selectors */
+
+/* class & id selectors */
 #logo {
     max-height: 50px;
     max-width: 200px;
+}
+
+.container {
+    text-align: center;
 }
 
 .main-header {
     background-color: #e12532;
     color: #f5d76e;
     border-bottom: solid 5px #f5d76e;
-    display: block;
-    text-align: center;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
+    width: 100%;
 }
 
 .menu {
@@ -35,8 +42,10 @@
     color: #ffd700;
 }
 
-/* layout styles */
-
+.main-footer {
+    background-color: #dadfe1;
+    width: 100%;
+}
 /* media queries */
 
 @media (max-width: 576px) {
