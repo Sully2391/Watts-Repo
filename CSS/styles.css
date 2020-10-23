@@ -13,9 +13,7 @@ body {
     max-width: 200px;
 }
 
-.container {
-    text-align: center;
-}
+
 
 .main-header {
     background-color: #e12532;
@@ -23,6 +21,7 @@ body {
     border-bottom: solid 5px #f5d76e;
     /* padding: 10px 15px; */
     width: 100%;
+    text-align: center;
 }
 
 .menu {
@@ -42,10 +41,22 @@ body {
     color: #ffd700;
 }
 
+.banner {
+    text-align: center;
+}
+
+.container {
+    background-color: #e4f1fe;
+    text-align: center;
+}
+
 .main-footer {
     background-color: #dadfe1;
     width: 100%;
 }
+
+
+
 /* media queries */
 
 @media (max-width: 576px) {
