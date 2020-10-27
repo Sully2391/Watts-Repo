@@ -57,6 +57,9 @@ body {
     height: 300px;
     width: 100%;
 }
+#banner-name {
+    color: #600000;
+}
 
 .container {
     flex: 1 0 auto;
