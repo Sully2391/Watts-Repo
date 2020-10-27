@@ -52,6 +52,10 @@ body {
 .banner {
     text-align: center;
 }
+#portrait {
+    height: 300px;
+    width: 100%;
+}
 
 .container {
     flex: 1 0 auto;
