@@ -4,6 +4,7 @@
 /* base styles */
 body {
     margin-top: 0;
+    display: flex;
 }
 
 
@@ -14,14 +15,16 @@ body {
 }
 
 
-
 .main-header {
     background-color: #e12532;
     color: #f5d76e;
     border-bottom: solid 5px #f5d76e;
     /* padding: 10px 15px; */
-    width: 100%;
     text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .menu {
@@ -47,12 +50,16 @@ body {
 
 .container {
     background-color: #e4f1fe;
-    text-align: center;
+    flex: 1 0 auto;
 }
 
 .main-footer {
     background-color: #dadfe1;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    flex-shrink: 0;
 }
 
 
