@@ -44,8 +44,8 @@ main {
 .main-header {
     background-color: #e12532;
     color: #f5d76e;
+    padding-bottom: 5px;
     border-bottom: solid 5px #f5d76e;
-    /* padding: 10px 15px; */
     text-align: center;
     width: 100%;
     position: absolute;
