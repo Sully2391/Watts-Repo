@@ -77,15 +77,20 @@ main {
     text-align: center;
     margin-top: 165px;
     padding: 50px;
-    background-image: url("../images/zenscape.jpg")
-
+    background-image: url("../images/zenscape.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
 }
-#portrait {
+/* DELETE BELOW IF IMG WORKS IN CSS */
+/* #portrait {
     height: 300px;
     width: 100%;
-}
+} */
+/* ^^^^^DELETE PORTRAIT IF IMG WORKS IN CSS^^^^^ */
 #banner-name {
     color: #600000;
+    padding: 30px;
 }
 
 .container {
