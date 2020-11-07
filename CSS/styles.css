@@ -1,9 +1,27 @@
+/* Font Styles */
 * {
-    font-family: fantasy, "papyrus";
+    font-family: fantasy;
 }
+
+.fancy-font {
+    font-family: "papyrus";
+}
+
 /* base styles */
 html, body {
     height: 100%;
+}
+
+ul {
+    padding: .2em;
+}
+
+li {
+    padding: .5em 0;
+}
+
+h2 {
+    color: #550000;
 }
 
 body {
@@ -49,6 +67,9 @@ main {
     color: #550000;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10%;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -72,9 +93,22 @@ main {
 }
 
 .col1 {
-    border: solid 2px #600000;
+    border: 3px double #550000;
+    background-color: #c8f7c5;
+    font-family: "papyrus";
     text-align: center;
+    margin: auto;
 }
+#quote {
+    background-color: #550000;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+  }
+
 
 .main-footer {
     background-color: #dadfe1;
