@@ -1,6 +1,8 @@
 /* Font Styles */
 * {
-    font-family: fantasy;
+    /* font-family: fantasy; */
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 .fancy-font {
@@ -13,6 +15,14 @@ html, body {
     height: 100%;
 }
 
+textarea {
+    /* border: 3px double #f5d76e; */
+    border: none;
+    text-align: center;
+    padding: 15px;
+    width: 50%;
+    /* background-color: #86e2d5; */
+}
 
 li {
     padding: .5em 0;
@@ -44,7 +54,6 @@ main {
 
 .main-header {
     background-color: #e12532;
-    color: #f5d76e;
     padding-bottom: 5px;
     border-bottom: solid 5px #f5d76e;
     text-align: center;
@@ -92,18 +101,19 @@ main {
 }
 
 .col1 {
-    border: 3px double #550000;
+    border: 5px inset #f5d76e;
     border-radius: 25px;
     /* padding: 20px;
     width: 200px;
     height: 150px; */
-    background-color: #c8f7c5;
+    background-color: #86e2d5;
     font-family: "papyrus";
     text-align: center;
     margin: auto;
 }
 #quote {
     background-color: #550000;
+    border-radius: 10px;
     border: none;
     color: white;
     padding: 5px 16px;
