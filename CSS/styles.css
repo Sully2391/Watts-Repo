@@ -86,7 +86,9 @@ main {
     padding: 50px;
     background-image: url("../images/zenscape.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 55%;
+    background-size: 200%;
+    background-color: #f5d76e;
 
 }
 
