@@ -7,6 +7,8 @@
 }
 
 /* base styles */
+
+
 html, body {
     height: 100%;
 }
@@ -32,7 +34,7 @@ body {
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 main {
@@ -81,7 +83,6 @@ main {
     text-align: center;
     margin-top: 215px;
     /* above property needed as long as main-header is using POSITION property */
-    padding: 1em;
     background: #f5d76e url("../images/zenscape.jpg") no-repeat center;
     background-size: cover;
 }
@@ -93,10 +94,9 @@ main {
 }
 
 .container {
-    /* flex: 1 0 auto; */
+    flex: 1 0 auto;
     /* width: 95%;
     margin: auto; */
-    
 }
 
 .col1 {
@@ -123,10 +123,10 @@ main {
     background-color: #dadfe1;
     width: 100%;
     text-align: center;
+    flex-shrink: 0;
     /* position: absolute;
     bottom: 0;
-    left: 0; */
-   
+    left: 0;    */
 } 
 
 
