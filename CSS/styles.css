@@ -7,7 +7,9 @@
 }
 
 /* base styles */
-
+* {
+    box-sizing: border-box;
+}
 
 html, body {
     height: 100%;
@@ -39,7 +41,7 @@ body {
 }
 
 main {
-    padding: 20px;
+    padding: 1em;
     background-color: #f2f1ef;
     flex: 1 0 auto;
     /* width: 95%; */
@@ -141,8 +143,28 @@ main {
 /* media queries */
 
 @media (min-width: 576px) {
-    main {
-
+    .container {
+        width:90vw;
+        margin: auto;
     }
 
+    main {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .col1 {
+        width: 100%;
+        /* padding: 30px 100px;
+        margin: auto 100px; */
+    }
+
+    .col2 {
+        width: 50%;
+    }
+
+    .col3 {
+        width: 50%;
+
+    }
 }
