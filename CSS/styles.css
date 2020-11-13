@@ -143,6 +143,15 @@ main {
 /* media queries */
 
 @media (min-width: 576px) {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-flex0 {
+        /* align-self: flex-start; */
+    }
+
     .container {
         width:95vw;
         margin: auto;
