@@ -104,8 +104,9 @@ main {
 
 }
 
-.quoteDisplay {
-    max-width: 600px; 
+#quoteDisplay {
+    max-width: 600px;
+    text-align: center; 
 }
 
 .col1 {
