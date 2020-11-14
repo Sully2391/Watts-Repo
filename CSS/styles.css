@@ -30,6 +30,8 @@ li {
 
 h2 {
     color: #550000;
+    text-align: center;
+    text-decoration: underline;
 }
 
 body {
@@ -153,7 +155,7 @@ main {
     }
 
     .nav-flex {
-        border-right: solid 1px #ffd700;
+        border-right: solid 1px #550000;
         padding: 1em;
     }
 
@@ -190,5 +192,24 @@ main {
 }
 
 @media (min-width: 1024px) {
+    .container {
+        width: 90vw;
+    }
+    
+    .col1 {
+        width: 40%;
+        padding: 100px 0;
+    }
 
+    .col2 {
+        width: 30%;
+        order: -1;
+        border: none;
+    }
+
+    .col3 {
+        width: 30%;
+        order: 1;
+        border: none;
+    }
 }
