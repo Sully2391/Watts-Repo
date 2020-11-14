@@ -107,6 +107,7 @@ main {
 #quoteDisplay {
     max-width: 600px;
     text-align: center; 
+    margin: auto;
 }
 
 .col1 {

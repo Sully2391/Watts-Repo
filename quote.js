@@ -1,10 +1,10 @@
 let quotes = [
-    'Test quote 1 this is a really really really reallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreally long quote to test the spacing!',
+    'Test quote 1 is a really really really really really really really really really really really really really really really really really really really really really really really really really really long quote to test spacing!',
     'Test quote 2',
     'Here is a moderately long quote that is more likely to be an avg quote length',
     'small quote',
     'Test quote 5',
-    'Test quote 6 this is a really really really reallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreally long quote to test the spacing!',
+    'Test quote 6 this is a really really really really really really really really really really really really really really really really really really really really really really really  long quote to test the spacing!',
     'Here is a moderately long quote that is more likely to be an avg quote length',
     'Test quote 8',
     'Test quote 9',
