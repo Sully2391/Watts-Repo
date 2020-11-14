@@ -142,14 +142,19 @@ main {
 
 /* media queries */
 
-@media (min-width: 576px) {
+@media (min-width: 600px) {
     .menu {
         display: flex;
         justify-content: space-between;
     }
 
     .nav-flex0 {
-        /* align-self: flex-start; */
+        margin: auto auto auto 1em;
+    }
+
+    .nav-flex {
+        border-right: solid 1px #ffd700;
+        padding: 1em;
     }
 
     .container {
