@@ -104,6 +104,10 @@ main {
 
 }
 
+.quoteDisplay {
+    max-width: 600px; 
+}
+
 .col1 {
     border: 5px inset #f5d76e;
     border-radius: 25px;
@@ -195,7 +199,7 @@ main {
     .container {
         width: 90vw;
     }
-    
+
     .col1 {
         width: 40%;
         padding: 100px 0;
