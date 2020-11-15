@@ -91,8 +91,9 @@ main {
 
 #banner-name {
     color: #600000;
-    padding: 50px 10px 30px;
-    text-transform: uppercase;
+    padding: 40px 10px;
+    font-size: 3em;
+    font-weight: inherit;
     margin: 0 auto;
     border-bottom: solid 2px #600000;
 }
@@ -105,9 +106,9 @@ main {
 }
 
 #quoteDisplay {
-    max-width: 600px;
+    /* max-width: 600px;
     text-align: center; 
-    margin: auto;
+    margin: auto; */
 }
 
 .col1 {
