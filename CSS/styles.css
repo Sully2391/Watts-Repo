@@ -23,6 +23,7 @@ h2 {
     color: #550000;
     text-align: center;
     text-decoration: underline;
+    font-family: "papyrus";
 }
 
 body {
@@ -36,9 +37,7 @@ body {
 
 main {
     padding: 1em;
-    background-color: #f2f1ef;
     flex: 1 0 auto;
-    /* width: 95%; */
     margin: auto;
 }
 
@@ -93,6 +92,7 @@ main {
 .container {
     flex: 1 0 auto;
     /* width: 95%; */
+    background-color: #f2f1ef;
     margin: auto;
 
 }
@@ -101,6 +101,7 @@ main {
     /* max-width: 600px;
     text-align: center; 
     margin: auto; */
+    font-weight: bold;
 }
 
 .col1 {
@@ -158,11 +159,6 @@ main {
         padding: 1em;
     }
 
-    .container {
-        width:95vw;
-        margin: auto;
-    }
-
     main {
         display: flex;
         flex-flow: row wrap;
@@ -170,8 +166,6 @@ main {
 
     .col1 {
         width: 100%;
-        /* padding: 30px 100px;
-        margin: auto 100px; */
         max-width: 800px;
     }
 
@@ -190,11 +184,8 @@ main {
     }
 }
 
-@media (min-width: 1024px) {
-    .container {
-        width: 90vw;
-    }
-
+@media (min-width: 980px) {
+   
     .col1 {
         width: 40%;
         padding: 100px 0;
