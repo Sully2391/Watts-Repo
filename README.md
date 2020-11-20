@@ -6,6 +6,8 @@ Aside from the quote generator itself when content gets filled in this would be 
 important, ranging from influences on popular culture (influenced the creators of South Park, Bruce Lee, Van Morrison and more) to influences in philosophy etc. A bibliography page
 is added with a list of some of his more popular books, and a signup form for a fictional newsletter that filters by related topics is included (styling yet to come at this time).
 
+A note: had an issue this morning (11/20) when pushing the quotes edit in javascript where it would not push, hopefully this was fixed and not further messed up as I had to solve this in a couple of minutes before clocking in for work!
+
 CSS Features included:
 
 1.A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical and horizontal, or is opened by clicking the “hamburger” menu item
