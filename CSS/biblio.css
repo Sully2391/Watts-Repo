@@ -96,3 +96,11 @@ main {
     margin: auto;
 
 }
+
+
+.main-footer {
+    background-color: #dadfe1;
+    width: 100%;
+    text-align: center;
+    flex-shrink: 0;
+} 
