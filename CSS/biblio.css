@@ -36,11 +36,6 @@ body {
     /* min-height: 100vh; */
 }
 
-main {
-    padding: 1em;
-    flex: 1 0 auto;
-    margin: auto;
-}
 
 /* class & id selectors */
 #logo {
@@ -104,7 +99,7 @@ main {
 
 /* LIST NTH OF type STYLING */
 
-div:nth-of-type(7n+1) {
+div:nth-of-type(7n+1) {  /* this targets divs to turn into headings*/
     font-weight: bold;
     font-size: 1.5em;
     font-family: "papyrus";
@@ -114,7 +109,7 @@ div:nth-of-type(7n+1) {
     color: #550000;
 }
 
-div:nth-of-type(n+2):nth-of-type(-n+7), div:nth-of-type(n+9):nth-of-type(-n+14), div:nth-of-type(n+16):nth-of-type(-n+21) {
+div:nth-of-type(n+2):nth-of-type(-n+7), div:nth-of-type(n+9):nth-of-type(-n+14), div:nth-of-type(n+16):nth-of-type(-n+21) {  /*this targets three groups of divs that makeup the list of books*/
 	background: #008b8b;
     color: white;
     padding: 10px 0 5px 5px;
@@ -123,7 +118,7 @@ div:nth-of-type(n+2):nth-of-type(-n+7), div:nth-of-type(n+9):nth-of-type(-n+14),
     text-align: center;
 }
 
-div:nth-of-type(7n+7) {
+div:nth-of-type(7n+7) {  /*just to add spacing between the three groups of books*/
     margin-bottom: 1em;
 }
 
@@ -156,9 +151,21 @@ div:nth-of-type(7n+7) {
         padding: 1em;
     }
 
-    main {
+    /* .container {
         display: flex;
         flex-flow: row wrap;
+    }
+
+    #biblio-heading {
+        width: 100%;
+    }
+
+    div:nth-of-type(n+2):nth-of-type(-n+7), div:nth-of-type(1) {
+        
+    }
+
+    div:nth-of-type(n+9):nth-of-type(-n+14), div:nth-of-type(8) {
+       
     }
 
 
@@ -166,4 +173,4 @@ div:nth-of-type(7n+7) {
 
 @media (min-width: 980px) {
    
-}
+} */
