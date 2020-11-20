@@ -7,6 +7,7 @@ important, ranging from influences on popular culture (influenced the creators o
 is added with a list of some of his more popular books, and a signup form for a fictional newsletter that filters by related topics is included (styling yet to come at this time).
 
 CSS Features included:
+
 1.A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical and horizontal, or is opened by clicking the “hamburger” menu item
  
  -Currently included on both the main and bibliography pages
@@ -21,6 +22,7 @@ CSS Features included:
   are styled such that the books are divided up into 3 separate groups.
  
 Javascript Feature included:
+
 4.Create and populate a JavaScript array with one or more values and display the contents on your page
   
   -Featured with the quote generator on the main page.
