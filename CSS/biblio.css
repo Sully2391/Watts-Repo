@@ -136,3 +136,34 @@ div:nth-of-type(7n+7) {
     text-align: center;
     flex-shrink: 0;
 } 
+
+
+
+/* media queries */
+
+@media (min-width: 600px) {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-flex0 {
+        margin: auto auto auto 1em;
+    }
+
+    .nav-flex {
+        border-right: solid 1px #550000;
+        padding: 1em;
+    }
+
+    main {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+
+}
+
+@media (min-width: 980px) {
+   
+}
