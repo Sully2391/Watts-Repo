@@ -98,19 +98,20 @@ main {
 }
 
 #quoteDisplay {
-    /* max-width: 600px;
-    text-align: center; 
-    margin: auto; */
+    padding: 5px;
     font-weight: bold;
 }
 
 .col1 {
-    border: 5px inset #f5d76e;
+    border: 3px inset #f5d76e;
     border-radius: 25px;
-    background-color: #86e2d5;
+    padding: 10px;
+    background-color: #008b8b;
     font-family: "papyrus";
     text-align: center;
     margin: auto;
+    color: white;
+    box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
 }
 
 .col2 {
@@ -167,6 +168,7 @@ main {
     .col1 {
         width: 100%;
         max-width: 800px;
+        margin-bottom: 15px;
     }
 
     .col2 {
@@ -189,6 +191,8 @@ main {
     .col1 {
         width: 40%;
         padding: 100px 0;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .col2 {
