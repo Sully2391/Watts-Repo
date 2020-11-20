@@ -24,6 +24,7 @@ h2 {
     text-align: center;
     text-decoration: underline;
     font-family: "papyrus";
+    font-size: 2em;
 }
 
 body {
@@ -97,26 +98,36 @@ main {
 
 }
 
-/* LIST NTH OF CHILD STYLING */
+#biblio-heading {
+    padding-bottom: 1.5em;
+}
+
+/* LIST NTH OF type STYLING */
 
 div:nth-of-type(7n+1) {
     font-weight: bold;
     font-size: 1.5em;
     font-family: "papyrus";
+    text-align: center;
     list-style-type: none;
     text-decoration: underline;
     color: #550000;
 }
 
 div:nth-of-type(n+2):nth-of-type(-n+7), div:nth-of-type(n+9):nth-of-type(-n+14), div:nth-of-type(n+16):nth-of-type(-n+21) {
-	background: #86e2d5;
-    /* color: white; */
+	background: #008b8b;
+    color: white;
     padding: 10px 0 5px 5px;
     font-style: italic;
     font-size: 1.1em;
+    text-align: center;
 }
 
-/* END LIST STYLING W/ NTH OF CHILD */
+div:nth-of-type(7n+7) {
+    margin-bottom: 1em;
+}
+
+/* END LIST STYLING W/ NTH OF type */
 
 
 .main-footer {
