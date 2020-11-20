@@ -1,0 +1,98 @@
+/* Font Styles */
+
+
+.fancy-font {
+    font-family: "papyrus";
+}
+
+/* base styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+li {
+    padding: .5em 0;
+}
+
+h2 {
+    color: #550000;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "papyrus";
+}
+
+body {
+    /* margin-top: 0; */
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+main {
+    padding: 1em;
+    flex: 1 0 auto;
+    margin: auto;
+}
+
+/* class & id selectors */
+#logo {
+    max-height: 50px;
+    max-width: 200px;
+}
+
+
+.main-header {
+    background-color: #e12532;
+    padding: 10px 0;
+    border-bottom: solid 5px #f5d76e;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-link {
+    color: #550000;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #ffd700;
+}
+
+.banner {
+    text-align: center;
+    background: #f5d76e url("../images/zenscape.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 0;
+}
+
+#banner-name {
+    color: #600000;
+    padding: 40px 10px;
+    font-size: 3em;
+    font-weight: inherit;
+    margin: 0 auto;
+    border-bottom: solid 2px #600000;
+}
+
+.container {
+    flex: 1 0 auto;
+    /* width: 95%; */
+    background-color: #f2f1ef;
+    margin: auto;
+
+}
